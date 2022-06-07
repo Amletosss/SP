@@ -13,7 +13,7 @@ while true; do
         echo ""
 
         cat ok.txt
-        yum info $packet_name 2>error.txt
+        yum info $package_name 2>error.txt
         continue
     else
         echo "PACKAGE NOT INSTALLED"
